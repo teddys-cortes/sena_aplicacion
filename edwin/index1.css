@@ -1,0 +1,186 @@
+.container {
+    /* border: solid 1px red; */
+    width: auto;
+    height: auto;
+    background: linear-gradient(180deg, white, rgb(66, 122, 9));
+    padding: 0;
+}
+
+header {
+    padding-top: 20px;
+    border: solid 2px white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: auto;
+    height: 150px;
+    background: url(imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+}
+
+header div {
+    border: solid 2px rgba(107, 107, 107, 0);
+    border-radius: 10PX;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    width: 1200px;
+}
+
+body {
+    /* border: solid 2px rgb(110, 244, 248); */
+    margin: 0px;
+    width: auto;
+    height: 1400px;
+}
+
+.headerHtml {
+    border: solid 1px gainsboro;
+    width: 1000px;
+    height: 70px;
+    margin-left: 100px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.clearfix {
+    display: block;
+}
+
+#contenedor {
+    width: 960px;
+    margin: 0 auto;
+    /* border: solid 3px green; */
+    border-radius: 10px;
+}
+
+#logo {
+    margin: 20px;
+    float: left;
+}
+
+#navPrincipal {
+    margin-right: 50px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#navPrincipal li {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid #f8f6f6;
+    background-color: white;
+    margin: 5px;
+    width: 100px;
+    float: left;
+    border-radius: 10px;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+#navPrincipal a:link {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(110, 244, 248);
+}
+
+.sectionCentral {
+    width: 500px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;
+}
+
+.h1Vida {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    color: rgb(66, 122, 9);
+}
+
+.fotosPremiadas {
+    margin-top: 70px;
+    margin-right: 80px;
+    width: 300px;
+    height: auto;
+    float: right;
+}
+
+.img1 {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.img2 {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.h2FPremiadas {
+    margin-bottom: 20px;
+    color: rgb(66, 122, 9);
+    display: flex;
+    justify-content: center;
+}
+
+.fotosPremiadas div {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 70px;
+}
+
+#logo1 {
+    border-left: 20px;
+    width: 100px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 30px;
+    border: solid 4px white;
+    border-radius: 20px;
+}
+
+#imagenesDerecha {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: solid 3px white;
+}
+
+img {
+    width: 580px;
+    height: 400px;
+}
+
+#iconos {
+    width: 60px;
+    height: 40px;
+}
+
+footer {
+    background-color: white;
+    border: solid 2px black;
+    display: flex;
+    clear: both;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+footer a {
+    margin-left: 30px;
+    width: 10px;
+    right: 10px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+
+            <div>
+                <iframe src="header.html" class="headerHtml"></iframe>
+            </div>
+
+        </header>
+
+        <div class="divPreFor">
+            <section class="sectionPreg">
+                <h1>Preguntas frecuentes</h1>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </section>
+
+
+            <section class="sectionForm">
+                <div class="contact_form">
+
+                    <div class="formulario">
+                        <h1>Formulario de contacto</h1>
+                        <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+
+
+                        <form action="formulario.php" method="post">
+                            <p>
+                                <label for="nombre" class="colocar_nombre">Nombre
+                                    <span class="obligatorio">*</span>
+                                  </label>
+                                <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                            </p>
+
+                            <p>
+                                <label for="Apellido1" class="colocar_primerApellido">Primer apellido
+                                    <span class="obligatorio">*</span>
+                                  </label>
+                                <input type="email" name="apellido" id="Apellido1" required="obligatorio" placeholder="Escribe tu primer apellido">
+                            </p>
+
+                            <p>
+                                <label for="Apellido2" class="colocar_segundoApellido">Segundo apellido
+                                  </label>
+                                <input type="text" name="apellido2" id="Apellido2" placeholder="Escribe tu segundo apellido">
+                            </p>
+
+                            <p>
+                                <label for="Correo" class="colocar_correo">Correo
+                                    <span class="obligatorio">*</span>
+                                  </label>
+                                <input type="text" name="correo" id="Correo" placeholder="Escribe tu correo">
+                            </p>
+
+                            <p>
+                                <label for="asunto" class="colocar_asunto">Asunto
+                                    <span class="obligatorio">*</span>
+                                  </label>
+                                <input type="text" name="asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                            </p>
+
+                            <p>
+                                <label for="mensaje" class="colocar_mensaje">Mensaje
+                                    <span class="obligatorio">*</span>
+                                  </label>
+                                <textarea name="comentario" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                            </p>
+
+                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                            <p class="aviso">
+                                <span class="obligatorio"> * </span>los campos son obligatorios.
+                            </p>
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footerForm">
+            <div>
+                <a href="https://www.facebook.com/natgeowild"><img src="Iconos/fb.png" alt="facebook" id="iconos"></a>
+                <a href="https://www.instagram.com/natgeowild/"><img src="Iconos/ig.png" alt="Intagram" id="iconos"></a>
+                <a href="https://twitter.com/NatGeo_la"><img src="Iconos/tw.png" alt="Twitter" id="iconos"></a>
+            </div>
+        </footer>
+
+    </main>
+
+</html>

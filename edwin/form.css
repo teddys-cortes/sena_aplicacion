@@ -1,0 +1,199 @@
+    /* Importación de fuentes de google fonts */
+    
+    @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+    body {
+        font-family: 'Noto Sans', sans-serif;
+        margin: 0px;
+    }
+    
+    .divPreFor {
+        display: inline-flex;
+    }
+    
+    .sectionPreg {
+        width: 550px;
+        margin-top: 30px;
+        margin-left: 150px;
+        margin-right: 100px;
+    }
+    
+    .sectionPreg h1 {
+        color: #0e0e0e;
+    }
+    
+    .sectionForm {
+        margin-top: 30px;
+        width: 500px;
+        height: 1140px;
+        border-radius: 15px;
+        /* /* background-color: rgb(116, 224, 252); */
+    }
+    
+    .contact_form {
+        width: 460px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: 20px;
+        border-radius: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #fbfbfb;
+        padding-left: 30px;
+        border-color: solid 1px black;
+    }
+    
+    input {
+        background-color: #fbfbfb;
+        width: 408px;
+        height: 40px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: green;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    
+    textarea {
+        background-color: #fbfbfb;
+        width: 405px;
+        height: 150px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: green;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+    
+    label {
+        display: block;
+        float: center;
+    }
+    
+    button {
+        height: 45px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        background-color: green;
+        border-color: green;
+        border-style: solid;
+        border-radius: 10px;
+        width: 420px;
+        cursor: pointer;
+    }
+    
+    button p {
+        color: #fff;
+    }
+    
+    span {
+        color: green;
+    }
+    
+    .aviso {
+        font-size: 13px;
+        color: #0e0e0e;
+    }
+    
+    h1 {
+        font-size: 39px;
+        text-align: letf;
+        padding-bottom: 20px;
+        color: green;
+    }
+    
+    h3 {
+        font-size: 16px;
+        padding-bottom: 30px;
+        color: #0e0e0e;
+    }
+    
+    p {
+        font-size: 14px;
+        color: #0e0e0e;
+    }
+    
+     ::-webkit-input-placeholder {
+        color: #a8a8a8;
+    }
+    
+     ::-webkit-textarea-placeholder {
+        color: #a8a8a8;
+    }
+    
+    .formulario input:focus {
+        outline: 0;
+        border: 1px solid #97d848;
+    }
+    
+    .formulario textarea:focus {
+        outline: 0;
+        border: 1px solid #97d848;
+    }
+    
+    .clearfix:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+    
+    .clearfix {
+        display: inline-block;
+        border-radius: 10px;
+    }
+    
+    .clearfix {
+        display: block;
+    }
+    
+    #navPrincipal {
+        float: right;
+        margin-bottom: 10px;
+    }
+    
+    #navPrincipal li {
+        list-style-type: none;
+        padding: 10px;
+        border: 1px solid #6B6B6B;
+        background-color: white;
+        margin: 5px;
+        width: 100px;
+        float: left;
+        font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    }
+    
+    #navPrincipal a:link {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #logo1 {
+        border-left: 20px;
+        width: 100px;
+        height: 80px;
+    }
+    
+    .footerForm {
+        background-color: white;
+        border: solid 2px black;
+        display: flex;
+        clear: both;
+        margin-top: 100px;
+    }
+    
+    footer a {
+        margin-left: 30px;
+        width: 10px;
+        right: 10px;
+    }
